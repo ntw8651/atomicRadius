@@ -1,7 +1,4 @@
 
-//https://ahnanne.tistory.com/31 시간 남으면 이거로 원소 표시
-
-
 const ctx = document.getElementById('one').getContext('2d');
 const myChart = new Chart(ctx, {
     type: 'line',
@@ -243,7 +240,7 @@ const myChart2 = new Chart(ctx2, {
                 }
             },
             
-            label: '',
+            label: '이온화 에너지 변화 추세',
             data: [{
                 x:1,
                 y:1312.0,
